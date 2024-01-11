@@ -13,3 +13,44 @@
 </body>
 
 </html>
+
+<style>
+  .wrapper {
+    background: blanchedalmond;
+    border-radius: 5rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .playerCard {
+      background: blueviolet;
+      margin: 2rem;
+      opacity: 90%;
+      border-radius: 2rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+      h2 {
+        margin: 2rem;
+      }
+
+      p {
+        margin: 2rem;
+        color: white;
+      }
+
+      .btn {
+        display: flex;
+        justify-content: end;
+        
+        button {
+          justify-content: flex-end;
+          background-color: purple;
+          margin: 0 2rem 2rem;
+          border-radius: 2rem;
+        }
+      }
+    }
+  }
+</style>
